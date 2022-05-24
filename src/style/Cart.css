@@ -1,0 +1,17 @@
+.cart {
+
+    justify-content: center;
+    width: 100vw;
+    padding:0;
+    
+}
+
+.gamepage{
+    background-color: white;
+    background:white;
+  }
+
+  .total {
+      align-items: center;
+      text-align: center;
+  }

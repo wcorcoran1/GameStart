@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.hardwarecard {
+  border: 1px solid blue;
+  border-radius: 2px;
+  padding: 1rem;
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  min-inline-size: min-content;
+}
+
+p {
+  font-size: 13px;
+}
+
+img {
+  height: 120px;
+  width: auto;
+}
+
+.hardwaretext {
+  align-self: center;
+  max-width: 70%;
+  min-width: 80%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100px;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+.hardwareinfo {
+  margin: 5px 0px;
+}

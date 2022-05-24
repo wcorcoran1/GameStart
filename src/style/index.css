@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+/* import fonts here */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* define variables here */
+  --green: green;
+  --red: red;
+  --blue: blue;
+}
+
+html {
+  touch-action: manipulation;
+}
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+  /* margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue; */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+.navBar {
+  position: sticky;
+  top: 0;
+  font-size: 24px;
+  background-color:white;
+  width: 80%;
+  margin-left: auto;
+  margin-right:auto;
+  height: 5rem;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+
+.link {
+  text-decoration: underline;
+  color: rgb(7, 6, 6);
+  padding: 4%;
+}
+
+.welcomemsg {
+  text-align: center;
+  color: black;
+}
+.userForm {
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+}
+.nameForm {
+  display: flex;
+}
+.platformLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.createaccount {
+  box-shadow: inset 0px 1px 0px 0px #f5978e;
+  background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+  background-color: #f24537;
+  border-radius: 42px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 29px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #810e05;
+  align-items: center;
+}
+.createaccount:hover {
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+  background-color: #c62d1f;
+}
+.createaccount:active {
+  position: relative;
+  top: 1px;
+}
+
+.login{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .loginbtn{
+  width: 120px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 16px ;   
+} */
+
+.loginbtn {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+  margin-top: 0.5rem;
+  margin-left: 25%;
+  margin-right: 250%;
+}
+.loginbtn:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.loginbtn:active {
+	position:relative;
+	top:1px;
+}
+
+.homepage{
+  background-color: white;
+}
+
+.topbot{
+  display:block;
+padding:1rem;
+margin-top: 2rem;
+/* margin-bottom: .5rem; */
+}
+
+.createacc{
+  padding: 1rem;
+}
+
+.userForm{
+  padding: 1rem;
+}
+
+.homepage{
+  width:40%;
+  position:relative;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.app-container{
+  width:50%;
+  position:relative;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 2rem;
+}
+
+.platformpage{
+  background-color: white;
+  background:white;
+}
+
+.cartpage{
+  background-color: white;
+  background:white;
+}
+
+.hardwarepage{
+  background-color: white;
+  background:white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  height: 5rem;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:2rem;
+  font-family: 'Bangers', cursive;
+}
+
+.cartpage{
+  background-color: white;
+  background:white;
+}
+
+.registerButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+  margin-top: 0.5rem;
+  margin-left: 25%;
+  margin-right: 250%;
+}
+.registerButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.registerButton:active {
+	position:relative;
+	top:1px;
+}
+
+.userForm{
+  background-color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right:auto;
+}

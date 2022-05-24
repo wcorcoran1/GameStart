@@ -1,0 +1,49 @@
+/* headers have margins by default. setting all margins in GameCard to 0 */
+* {
+    margin:0;
+}
+
+.gamecard {
+    border: 1px solid grey;
+    border-radius:2px;
+    padding: 1rem;
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    min-inline-size: min-content;
+}
+.gamecardcart {
+    border: 1px solid grey;
+    border-radius:2px;
+    padding: 1rem;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    min-inline-size: min-content;
+}
+
+p {
+    font-size: 10px;
+}
+
+img {
+    height: 120px;
+    width: auto;
+}
+
+.gametext {
+    align-self: center;
+    max-width: 70%;
+    min-width: 80px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+h5 {
+    font-weight:500;
+}
+
+.gameinfo {
+    margin: 5px 0px;
+}
